@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.Field = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.NextBox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Field)).BeginInit();
@@ -46,16 +45,6 @@
             this.Field.Size = new System.Drawing.Size(195, 348);
             this.Field.TabIndex = 0;
             this.Field.TabStop = false;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(323, 167);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // timer1
             // 
@@ -78,7 +67,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(508, 450);
             this.Controls.Add(this.NextBox);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.Field);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -91,7 +79,6 @@
         #endregion
 
         private System.Windows.Forms.PictureBox Field;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.PictureBox NextBox;
     }

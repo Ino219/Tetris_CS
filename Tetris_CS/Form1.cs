@@ -656,11 +656,6 @@ namespace Tetris_CS
             return bp;
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            //timer1.Enabled = true;
-            //MoveBlock(currentBP, 1);
-        }
         //キー操作処理
         protected override bool ProcessDialogKey(Keys keyData)
         {
